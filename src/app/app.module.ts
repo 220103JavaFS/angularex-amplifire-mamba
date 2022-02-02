@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ZachComponent } from './components/zachcomponent/zachcomponent.component';
+import { BobbyComponentComponent } from './components/bobby-component/bobby-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ZachComponent
+    ZachComponent,
+    BobbyComponentComponent
   ],
   imports: [
     BrowserModule,
