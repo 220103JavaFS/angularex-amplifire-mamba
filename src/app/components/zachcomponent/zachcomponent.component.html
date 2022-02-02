@@ -1,6 +1,7 @@
-<ul>
-    <li>{{name}}</li>
-    <li>{{home}}</li>
-    <li>{{interests}}</li>
-    <li>{{quote}}</li>
+<p>My name is {{name}}.</p>
+<p>I'm from {{home}}.</p> 
+<p>My interests are: {{interests}}</p>
+<ul *ngFor="let interest in interests">
+    <li>interest</li>
 </ul>
+<p>I quote I like (that I stole from the internet) is: {{quote}}</p>
