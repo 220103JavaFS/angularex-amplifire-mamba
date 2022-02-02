@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ZachComponent } from './components/zachcomponent/zachcomponent.component';
 import { BobbyComponentComponent } from './components/bobby-component/bobby-component.component';
+import { MahadComponent } from './components/mahad/mahad.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ZachComponent,
-    BobbyComponentComponent
+    BobbyComponentComponent,
+    MahadComponent
   ],
   imports: [
     BrowserModule,
